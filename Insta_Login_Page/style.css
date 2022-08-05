@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: #fafafa;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: -35px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.signin {
+    border: 1px solid rgb(192, 191, 191);
+    width: 18%;
+    height: 40vh;
+    padding: 2.7rem;
+    background-color: white;
+}
+
+.logo {
+    margin-bottom: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 90%;
+}
+
+.input-text {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 3px auto;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 2px;
+}
+
+.input-text:hover {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.signin .btn {
+    width: 114%;
+    padding: 6px 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #b2dffc;
+    border: none;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.signin .btn:hover {
+    background-color: rgb(14, 186, 243);
+}
+
+.signin .or {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.6rem;
+    margin-bottom: 0.7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin .or span {
+    padding: 0 0.8rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.signin .or .bar {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.fb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.fb p {
+    font-size: 0.9rem;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    margin-left: 8px;
+    color: rgb(4, 86, 113);
+}
+
+.signin a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: darkblue;
+    margin-top: -8px;
+}
+
+.signup {
+    border: 1px solid rgb(192, 191, 191);
+    width: 23.5%;
+    height: 9vh;
+    background-color: white;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    font-weight: bolder;
+}
+
+.signup a {
+    text-decoration: none;
+    color: rgb(9, 138, 224);
+}
+
+.app {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p {
+    margin-bottom: 20px;
+}
+
+.store a {
+    text-decoration: none;
+    border: none;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: -20px;
+    color: black;
+}
+
+.store {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple {
+    flex: 1;
+    
+}
+
+.play {
+    flex: 1;
+}
+
+.main-footer .content {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.content a{
+    color: #8e8e8e;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.main-footer p {
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
